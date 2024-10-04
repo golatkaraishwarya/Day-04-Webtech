@@ -1,0 +1,102 @@
+.main-cnt{
+    height: 87vh;
+    width: 20vw;
+    border: 2px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    margin: auto;
+    background-color: rgb(13, 31, 84);
+}
+
+.main-pic{
+    height: 250px;
+    width: 100%;
+    /* border: 2px solid green; */
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.nighttext{
+    height: 60px;
+    width: 90%;
+    /* border: 1px solid white; */
+    margin-left: 20px;
+}
+
+h2{
+    color: white;
+    margin-left: 20px;
+}
+
+p{
+    color: grey;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.related{
+    height: 140px;
+    width: 90%;
+    /* border: 1px solid white; */
+    margin-left: 20px;
+    color: white;
+}
+
+h3{
+    color: white;
+    margin-left: 20px; 
+}
+.rpic{
+    height: 80px;
+    width: 90%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.rpic1{
+    height:100%;
+    width: 45%;
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-clouds-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.rpic2{
+    height:100%;
+    width: 45%;
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sweet-sleep-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.rtext{
+    height: 1%;
+    width: 90%;
+    /* border: 2px solid wheat; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    margin-bottom: 70px;
+}
+
+.rtext1{
+    line-height: 0.5px;
+}
+
+.rtext2{
+    line-height: 1px;
+}
+
+button{
+    height: 25px;
+    width: 70px;
+    background-color: rgb(129, 142, 215);
+    color: white;
+    border-radius: 15px;
+    font-size: 10px;
+}
